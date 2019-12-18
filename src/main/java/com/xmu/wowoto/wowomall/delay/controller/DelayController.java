@@ -35,8 +35,10 @@ public class DelayController {
         redisUtil.addToSet("test",set);
         redisUtil.addToSet("test1",set);
         redisUtil.addToSet("test2",set);
+        redisUtil.addToSet("test3",set);
         redisUtil.setDelay("test1",60);
-        redisUtil.setDelay("test2",60*30);
+        redisUtil.setDelay("test2",60*5);
+        redisUtil.setDelay("test3",60*30);
 
     }
 
