@@ -1,4 +1,4 @@
-package com.xmu.wowoto.wowomall.delay;
+package com.xmu.wowoto.delay;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

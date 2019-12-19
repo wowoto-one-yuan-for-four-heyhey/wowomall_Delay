@@ -1,8 +1,7 @@
-package com.xmu.wowoto.wowomall.delay.controller;
+package com.xmu.wowoto.delay.controller;
 
-import com.xmu.wowoto.wowomall.delay.util.RedisUtil;
+import com.xmu.wowoto.delay.util.RedisUtil;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.cache.CacheProperties;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
