@@ -20,6 +20,10 @@ public class PicController {
     @PostMapping("/pics")
     public Object uploadToPost(@RequestParam("file") MultipartFile file)
     {
+        if(file==null)
+        {
+            return ResponseUtil.badArgument();
+        }
         String name=picService.upload(file);
         System.out.println(name);
         return ResponseUtil.ok(name);
